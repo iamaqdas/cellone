@@ -59,7 +59,7 @@
 
     <nav>
         <div class="nav-wrapper blue-grey darken-3 pl-2">
-            <a href="#!" class="brand-logo">US Admin</a>
+            <a href="#!" class="brand-logo">Cellone Admin</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li class="<?php if ($pagename == 'Dashboard') {
