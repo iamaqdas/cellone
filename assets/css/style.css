@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.w100{
+    width: 100%;
+}
+
+.h100{
+    height: 100%;
+}
+
+.banner{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url('../images/banner/ban2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.posrel{
+    position: relative;
+}
+
+.absbutn{
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absbutn2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.homeslots{
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid white;
+}

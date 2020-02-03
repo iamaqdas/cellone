@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $pagename; ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         .brand-logo {
@@ -16,6 +17,11 @@
         .hpcar {
             height: 70vh !important;
         }
+        <?php 
+            if($nonav == 1){
+                echo "nav, .sidenav{display:none;}";
+            }
+        ?>
     </style>
 </head>
 

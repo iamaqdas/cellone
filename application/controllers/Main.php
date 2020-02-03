@@ -13,6 +13,7 @@ class Main extends CI_Controller {
 	public function index()
 	{
 		$header['pagename'] = 'Home';
+		$header['nonav'] = 1;
 		$this->load->view('templates/header',$header);
 		$this->load->view('pages/index');
 		$this->load->view('templates/footer');
